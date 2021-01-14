@@ -1,8 +1,10 @@
+
 .half-width{
     width: 40%;
     float: left;
     margin-left: 5%;
     padding-left: 2%;
+    
    
 }
 .half-width img{
@@ -18,4 +20,31 @@
 }
 .small{
     width: 15%
+    
 }
+.h1{
+    font-size: 40px;
+    font-family: fantasy;
+}
+h1{
+    font-family: fantasy;
+}
+h5{
+    font-weight: bold;
+    color: goldenrod;
+}
+@media(max-width:688px){
+    
+    .half-width{
+        width: 100%;
+        float: left;
+        margin-left: 5%;
+        padding-left: 2%;
+}
+@media(max-width:992px){
+    
+    .half-width{
+        width: 100%;
+        float: left;
+        margin-left: 5%;
+        padding-left: 2%;
